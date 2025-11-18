@@ -11,8 +11,8 @@ from openai import OpenAI
 client = OpenAI()
 
 # Default paths
-DEFAULT_EMBEDDING_FILE = "./data/conversations_embedding.json"
-DEFAULT_TEXTONLY_FILE = "./data/conversations_textonly.json"
+DEFAULT_EMBEDDING_FILE = "../data/conversations_embedding.json"
+DEFAULT_TEXTONLY_FILE = "../data/conversations_textonly.json"
 
 def text_to_embedding(text):
     """Convert input text to embedding using OpenAI API"""
