@@ -18,7 +18,7 @@ def text2embedding(text):
         text = text[:max_chars] + "..."
         print(f"  Warning: Text truncated to {max_chars} characters")
     
-    return [0.0] * 1536
+    # return [0.0] * 1536
 
     try:
         response = client.embeddings.create(
